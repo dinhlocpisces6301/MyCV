@@ -24,6 +24,7 @@ a {
     color: red;
   }
 }
+
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -40,14 +41,16 @@ a {
 }
 
 .wrapper {
-  background: var(--white-color);
+  padding: 3.2rem 0;
+  background: url(../images/bg.jpg) no-repeat fixed center;
+  background-size: cover;
 }
 
 .content {
   display: flex;
   width: 79.4rem;
   height: 112.3rem;
-  margin: 1.6rem auto;
+  margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .content__left {
@@ -67,7 +70,7 @@ a {
   background: #fff;
 }
 .content__field {
-  padding: 1rem 3.2rem;
+  padding: 1.6rem 3.2rem;
 }
 
 .avatar {
@@ -75,8 +78,9 @@ a {
   align-items: center;
   padding: 1.6rem 0;
   img {
-    height: 20rem;
-    width: 15rem;
+    height: 16rem;
+    width: 12rem;
+    /* object-fit: cover; */
   }
 }
 .name {
